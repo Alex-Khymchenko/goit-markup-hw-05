@@ -618,9 +618,12 @@ padding-right: 24px;
     position: relative;
 }
 
-.main_img:hover .main_img_top_text {
+
+.main_img_link:focus .main_img_top_text, 
+.main_img_link:hover .main_img_top_text {
     transform: translateY(0%);
 }
+
 
 .img_wrap {
     position: relative;
