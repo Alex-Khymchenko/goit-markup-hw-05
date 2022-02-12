@@ -72,7 +72,9 @@
             для вашего бизнеса
           </h1>
           <div>
-            <button type="button" class="btn option">Заказать услугу</button>
+            <button type="button" class="btn option" data-modal-open>
+              Заказать услугу
+            </button>
           </div>
         </div>
       </section>
@@ -458,5 +460,15 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="modal_close" data-modal-close>
+          <svg class="modal_close_icon">
+            <use href="./images/vector.svg#icon-Vector"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
